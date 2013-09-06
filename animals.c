@@ -37,8 +37,35 @@ int main(void)
                 case 'f':
                     printf("fisher, brownish marten\n");
                     break;
+                case 'g':
+                    printf("giraffe\n");
+                    break;
+                case 'h':
+                    printf("hedgehog\n");
+                    break;
+                case 'i':
+                    printf("impala\n");
+                    break;
+                case 'j':
+                    printf("jaguar\n");
+                    break;
+                case 'k':
+                    printf("kangaroo\n");
+                    break;
+                case 'l':
+                    printf("lemur\n");
+                    break;
+                case 'm':
+                    printf("manatee\n");
+                    break;
+                case 'n':
+                    printf("numbat\n");
+                    break;
+                case 'o':
+                    printf("ocelot\n");
+                    break;
                 default:
-                    printf("That's a stumper!\n");
+                    printf("No animal set for this letter.\n");
             }
         else
             printf("I recognize only lowercase letters.\n");
