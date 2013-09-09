@@ -6,7 +6,7 @@ int main(void)
 {
     char ch;
 
-    while ((ch = getchar()) != '#')
+    while ((ch = getchar()) != EOF)
         putchar(ch);
 
     return 0;
